@@ -14,32 +14,32 @@ public class Test {
 		
        //navigate 
 		
-		 driver.get("http://192.168.5.26:8080/ords/f?p=104:2183:0:::::");
+		 driver.get("");
 		 
 	 	 //find element
 		    WebElement e= driver.findElement(By.xpath("//*[@id=\"P2183_VISITOR_ID\"]"));
 			e.click();
 		
 		
-				 e.sendKeys("16-32742-3");
+				 e.sendKeys("");
 				 e=driver.findElement(By.xpath("//*[@id=\"P2183_NAME\"]"));
 				 e.click();
-				 e.sendKeys("Tanvir Hossain");
+				 e.sendKeys("");
 		
 					e=driver.findElement(By.xpath("//*[@id=\"P2183_PHONE\"]"));
-					e.sendKeys("01835678178");
+					e.sendKeys("");
 					e=driver.findElement(By.xpath("//*[@id=\"P2183_COME_FROM_lov_btn\"]"));
 					e.click();
 					
 //		e=driver.findElement(By.);
 //		e.click();
-//		 e.sendKeys("Tanvir Hossain");
-//		 e.sendKeys("16-32742-3");
+//		 e.sendKeys("");
+//		 e.sendKeys("");
 //	   
 		//enter email in login page 
 	     
 //	     e=driver.findElement(By.id("password"));
-//	     e.sendKeys("Tanvirh31@");
+//	     e.sendKeys("");
 //		e=driver.findElement(By.xpath("//*[@id=\"loginForm\"]/div[4]/button"));       // find element by xpath      
 //		e.click();
 //	    
